@@ -17,5 +17,5 @@
   "compatibleCoreVersion": "0.8.8",
   "url": "https://github.com/EddieEldridge/VariantEncumbrance",
   "manifest": "https://raw.githubusercontent.com/EddieEldridge/VariantEncumbrance/master/module.json",
-  "download": "https://github.com/EddieEldridge/VariantEncumbrance/blob/master/VariantEncumbrance.zip"
+  "download": "https://github.com/EddieEldridge/VariantEncumbrance/raw/master/VariantEncumbrance.zip"
 }
