@@ -1,7 +1,7 @@
 import { DND5E } from "../../../systems/dnd5e/module/config.js";
 
 export const registerSettings = function () {
-	game.settings.register("VariantEncumbrance", "lightMultiplier", {
+	game.settings.register("VariantEncumbrance (Basic)", "lightMultiplier", {
 		name: "Unencumbered Strength Multiplier",
 		hint: "Multiplier used to calculate maximum carrying weight before being encumbered from the strength ability score.",
 		scope: "world",
@@ -10,7 +10,7 @@ export const registerSettings = function () {
 		default: 5
 	});
 
-	game.settings.register("VariantEncumbrance", "mediumMultiplier", {
+	game.settings.register("VariantEncumbrance (Basic)", "mediumMultiplier", {
 		name: "Encumbered Strength Multiplier",
 		hint: "Multiplier used to calculate maximum carrying weight before being heavily encumbered from the strength ability score.",
 		scope: "world",
@@ -19,7 +19,7 @@ export const registerSettings = function () {
 		default: 10
 	});
 
-	game.settings.register("VariantEncumbrance", "heavyMultiplier", {
+	game.settings.register("VariantEncumbrance (Basic)", "heavyMultiplier", {
 		name: "Heavily Enc. Strength Multiplier",
 		hint: "Multiplier used to calculate maximum carrying weight from the strength ability score.",
 		scope: "world",
@@ -31,7 +31,7 @@ export const registerSettings = function () {
 		}
 	});
 
-	game.settings.register("VariantEncumbrance", "useVariantEncumbrance", {
+	game.settings.register("VariantEncumbrance (Basic)", "useVariantEncumbrance (Basic)", {
 		name: "(UNTESTED) Variant Encumbrance Speed Penalties",
 		hint: "Enable automatic speed penalties from carry weight.",
 		scope: "world",
@@ -40,7 +40,7 @@ export const registerSettings = function () {
 		default: true
 	});
 
-	game.settings.register("VariantEncumbrance", "unequippedMultiplier", {
+	game.settings.register("VariantEncumbrance (Basic)", "unequippedMultiplier", {
 		name: "(UNTESTED) Unequipped Item Weight Multiplier",
 		hint: "Multiplier for items when not equipped.",
 		scope: "world",
@@ -49,7 +49,7 @@ export const registerSettings = function () {
 		default: "1"
 	});
 
-	game.settings.register("VariantEncumbrance", "equippedMultiplier", {
+	game.settings.register("VariantEncumbrance (Basic)", "equippedMultiplier", {
 		name: "(UNTESTED) Equipped Item Weight Multiplier",
 		hint: "Multiplier for items when equipped, can be used to reduce effective weight for armour and weapons.",
 		scope: "world",
@@ -58,7 +58,7 @@ export const registerSettings = function () {
 		default: "1"
 	});
 
-	game.settings.register("VariantEncumbrance", "profEquippedMultiplier", {
+	game.settings.register("VariantEncumbrance (Basic)", "profEquippedMultiplier", {
 		name: "(UNTESTED) Proficient Equipped Item Weight Multiplier",
 		hint: "Multiplier for proficient items when equipped, can be used to reduce effective weight for armour and weapons.",
 		scope: "world",
@@ -67,7 +67,7 @@ export const registerSettings = function () {
 		default: "1"
 	});
 
-	game.settings.register("VariantEncumbrance", "currencyWeight", {
+	game.settings.register("VariantEncumbrance (Basic)", "currencyWeight", {
 		name: "(UNTESTED) Currency Per Weight Unit",
 		hint: "Define the number of coins required to equal 1 unit of weight.",
 		scope: "world",
@@ -79,7 +79,7 @@ export const registerSettings = function () {
 		}
 	});
 
-	game.settings.register("VariantEncumbrance", "sizeMultipliers", {
+	game.settings.register("VariantEncumbrance (Basic)", "sizeMultipliers", {
 		name: "(UNTESTED) Variant Encumbrance Size Modifiers",
 		hint: "Enable multipliers from creature size.",
 		scope: "world",
@@ -88,7 +88,7 @@ export const registerSettings = function () {
 		default: true
 	});
 
-	game.settings.register("VariantEncumbrance", "units", {
+	game.settings.register("VariantEncumbrance (Basic)", "units", {
 		name: "(UNTESTED) Weight Units",
 		hint: "Units displayed in the encumbrance bar.",
 		scope: "world",
@@ -97,7 +97,7 @@ export const registerSettings = function () {
 		default: "lbs."
 	});
 
-	game.settings.register("VariantEncumbrance", "lightWeightDecrease", {
+	game.settings.register("VariantEncumbrance (Basic)", "lightWeightDecrease", {
 		name: "(UNTESTED) Lightly Encumbered Speed Decrease",
 		hint: "The number of speed units subtracted when lightly encumbered.",
 		scope: "world",
@@ -106,7 +106,7 @@ export const registerSettings = function () {
 		default: 10
 	});
 
-	game.settings.register("VariantEncumbrance", "heavyWeightDecrease", {
+	game.settings.register("VariantEncumbrance (Basic)", "heavyWeightDecrease", {
 		name: "(UNTESTED) Encumbered Speed Decrease",
 		hint: "The number of speed units subtracted when heavily encumbered.",
 		scope: "world",
