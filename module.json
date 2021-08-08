@@ -1,6 +1,6 @@
 {
   "name": "VariantEncumbrance (Basic)",
-  "title": "Variant Encumbrance (Basic)",
+  "title": "VariantEncumbrance (Basic)",
   "description": "A module for D&D 5th Edition, to automatically modify character carry weights to match the Variant Encumbrance optional rule set.",
   "systems": [
     "dnd5e"
