@@ -186,7 +186,7 @@ function veEffect(effect) {
 function convertItemSet(actorEntity) {
 	let itemSet = {};
 	const weightlessCategoryIds = [];
-	const scopes = SetupConfiguration.getPackageScopes();
+	const scopes = game.getPackageScopes();
 	const invPlusActive = game.modules.get("inventory-plus")?.active;
 	const hasInvPlus = scopes.includes('inventory-plus');
 	if (hasInvPlus && invPlusActive) {

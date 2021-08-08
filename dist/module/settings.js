@@ -35,7 +35,7 @@ export const registerSettings = function () {
 		name: "Variant Encumbrance Speed Penalties",
 		hint: "Enable automatic speed penalties from carry weight.",
 		scope: "world",
-		config: true,
+		config: false,
 		type: Boolean,
 		default: true
 	});
@@ -44,7 +44,7 @@ export const registerSettings = function () {
 		name: "Unequipped Item Weight Multiplier",
 		hint: "Multiplier for items when not equipped.",
 		scope: "world",
-		config: true,
+		config: false,
 		type: Number,
 		default: "1"
 	});
@@ -53,7 +53,7 @@ export const registerSettings = function () {
 		name: "Equipped Item Weight Multiplier",
 		hint: "Multiplier for items when equipped, can be used to reduce effective weight for armour and weapons.",
 		scope: "world",
-		config: true,
+		config: false,
 		type: Number,
 		default: "1"
 	});
@@ -62,7 +62,7 @@ export const registerSettings = function () {
 		name: "Proficient Equipped Item Weight Multiplier",
 		hint: "Multiplier for proficient items when equipped, can be used to reduce effective weight for armour and weapons.",
 		scope: "world",
-		config: true,
+		config: false,
 		type: Number,
 		default: "1"
 	});
@@ -83,7 +83,7 @@ export const registerSettings = function () {
 		name: "Variant Encumbrance Size Modifiers",
 		hint: "Enable multipliers from creature size.",
 		scope: "world",
-		config: true,
+		config: false,
 		type: Boolean,
 		default: true
 	});
@@ -101,7 +101,7 @@ export const registerSettings = function () {
 		name: "Lightly Encumbered Speed Decrease",
 		hint: "The number of speed units subtracted when lightly encumbered.",
 		scope: "world",
-		config: true,
+		config: false,
 		type: Number,
 		default: 10
 	});
@@ -110,7 +110,7 @@ export const registerSettings = function () {
 		name: "Encumbered Speed Decrease",
 		hint: "The number of speed units subtracted when heavily encumbered.",
 		scope: "world",
-		config: true,
+		config: false,
 		type: Number,
 		default: 20
 	});
