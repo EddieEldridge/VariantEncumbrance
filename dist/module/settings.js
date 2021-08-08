@@ -32,43 +32,43 @@ export const registerSettings = function () {
 	});
 
 	game.settings.register("VariantEncumbrance", "useVariantEncumbrance", {
-		name: "Variant Encumbrance Speed Penalties",
+		name: "(UNTESTED) Variant Encumbrance Speed Penalties",
 		hint: "Enable automatic speed penalties from carry weight.",
 		scope: "world",
-		config: false,
+		config: true,
 		type: Boolean,
 		default: true
 	});
 
 	game.settings.register("VariantEncumbrance", "unequippedMultiplier", {
-		name: "Unequipped Item Weight Multiplier",
+		name: "(UNTESTED) Unequipped Item Weight Multiplier",
 		hint: "Multiplier for items when not equipped.",
 		scope: "world",
-		config: false,
+		config: true,
 		type: Number,
 		default: "1"
 	});
 
 	game.settings.register("VariantEncumbrance", "equippedMultiplier", {
-		name: "Equipped Item Weight Multiplier",
+		name: "(UNTESTED) Equipped Item Weight Multiplier",
 		hint: "Multiplier for items when equipped, can be used to reduce effective weight for armour and weapons.",
 		scope: "world",
-		config: false,
+		config: true,
 		type: Number,
 		default: "1"
 	});
 
 	game.settings.register("VariantEncumbrance", "profEquippedMultiplier", {
-		name: "Proficient Equipped Item Weight Multiplier",
+		name: "(UNTESTED) Proficient Equipped Item Weight Multiplier",
 		hint: "Multiplier for proficient items when equipped, can be used to reduce effective weight for armour and weapons.",
 		scope: "world",
-		config: false,
+		config: true,
 		type: Number,
 		default: "1"
 	});
 
 	game.settings.register("VariantEncumbrance", "currencyWeight", {
-		name: "Currency Per Weight Unit",
+		name: "(UNTESTED) Currency Per Weight Unit",
 		hint: "Define the number of coins required to equal 1 unit of weight.",
 		scope: "world",
 		config: true,
@@ -80,16 +80,16 @@ export const registerSettings = function () {
 	});
 
 	game.settings.register("VariantEncumbrance", "sizeMultipliers", {
-		name: "Variant Encumbrance Size Modifiers",
+		name: "(UNTESTED) Variant Encumbrance Size Modifiers",
 		hint: "Enable multipliers from creature size.",
 		scope: "world",
-		config: false,
+		config: true,
 		type: Boolean,
 		default: true
 	});
 
 	game.settings.register("VariantEncumbrance", "units", {
-		name: "Weight Units",
+		name: "(UNTESTED) Weight Units",
 		hint: "Units displayed in the encumbrance bar.",
 		scope: "world",
 		config: true,
@@ -98,19 +98,19 @@ export const registerSettings = function () {
 	});
 
 	game.settings.register("VariantEncumbrance", "lightWeightDecrease", {
-		name: "Lightly Encumbered Speed Decrease",
+		name: "(UNTESTED) Lightly Encumbered Speed Decrease",
 		hint: "The number of speed units subtracted when lightly encumbered.",
 		scope: "world",
-		config: false,
+		config: true,
 		type: Number,
 		default: 10
 	});
 
 	game.settings.register("VariantEncumbrance", "heavyWeightDecrease", {
-		name: "Encumbered Speed Decrease",
+		name: "(UNTESTED) Encumbered Speed Decrease",
 		hint: "The number of speed units subtracted when heavily encumbered.",
 		scope: "world",
-		config: false,
+		config: true,
 		type: Number,
 		default: 20
 	});
