@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Foundry-v0.8.8-blue) ![](https://img.shields.io/badge/D&D5e-v1.3.6-blue) ![](https://img.shields.io/badge/Sky's%20Alternate%20Character%20Sheet-v1.5.2-red) ![](https://img.shields.io/badge/Tidy5e%20Sheet-v0.5.10-red) ![](https://img.shields.io/badge/Inventory+-v0.3.1-red) ![](https://img.shields.io/badge/DAE-v0.2.34-red)
+# THE ORIGINAL VERSION HAS NOW BEEN UPDATED - THIS REPO CAN BE CONSIDERED DEPRECATED UNLESS YOU REQUIRE A MORE BASIC VERISON OF THE MODULE
 
-# THIS IS A FORKED VERSION OF THE ORIGINAL MODULE.
+## THIS IS A FORKED VERSION OF THE ORIGINAL MODULE.
 
 # Only the modifiable weight calculations and bar are implemented correctly. Many settings have been removed such as the auto-speed calculation as I don't care to fix them right now.
 
